@@ -1,2 +1,2 @@
 #!/bin/bash
-subdirs=$(find . -type d)
+find . -type d -exec chmod +x {} \;
