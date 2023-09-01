@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -e /tmp/iamafile ] && file -b /tmp/iamafile || echo "File /tmp/iamafile does not exist."
